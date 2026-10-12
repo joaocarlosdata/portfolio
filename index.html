@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<!-- Página principal: seções Início, Dashboard, Projetos e Sobre mim. -->
+<html lang="pt-BR">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <meta content="#050914" name="theme-color"/>
+  <title>
+   Jo&atilde;o Carlos | Data Analytics
+  </title>
+  <link href="css/style.css" rel="stylesheet"/>
+  <script defer="True" src="js/dados.js">
+  </script>
+  <script defer="True" src="js/script.js">
+  </script>
+ </head>
+ <body>
+  <noscript>
+   <div style="padding:18px;background:#102b52;color:white;text-align:center">
+    Para usar os menus e filtros, abra este site em um navegador com JavaScript ativado.
+   </div>
+  </noscript>
+  <div class="mobilebar">
+   <b>
+    JC
+    <span class="accent">
+     / DATA
+    </span>
+   </b>
+   <select aria-label="Navegar" id="mobileNav">
+    <option value="inicio">
+     In&iacute;cio
+    </option>
+    <option value="dashboard">
+     Dashboard
+    </option>
+    <option value="projetos">
+     Projetos
+    </option>
+    <option value="sobre">
+     Sobre mim
+    </option>
+   </select>
+  </div>
+  <nav aria-label="Navega&ccedil;&atilde;o m&oacute;vel" class="mobile-tabs">
+   <a data-page="inicio" href="#inicio">
+    ⌂
+    <span>
+     In&iacute;cio
+    </span>
+   </a>
+   <a data-page="dashboard" href="#dashboard">
+    ▥
+    <span>
+     Dados
+    </span>
+   </a>
+   <a data-page="projetos" href="#projetos">
+    ▤
+    <span>
+     Projetos
+    </span>
+   </a>
+   <a data-page="sobre" href="#sobre">
+    ◉
+    <span>
+     Sobre mim
+    </span>
+   </a>
+  </nav>
+  <div class="shell">
+   <aside class="side">
+    <div class="brand">
+     JC
+     <span>
+      / DATA.
+     </span>
+    </div>
+    <div class="nav">
+     <a class="active" data-page="inicio" href="#inicio">
+      ⌂ &nbsp; Vis&atilde;o geral
+     </a>
+     <a data-page="dashboard" href="#dashboard">
+      ▥ &nbsp; Dashboard escolar
+     </a>
+     <a data-page="projetos" href="#projetos">
+      ▤ &nbsp; Projetos
+     </a>
+     <a data-page="sobre" href="#sobre">
+      ◉ &nbsp; Sobre mim
+     </a>
+    </div>
+    <div class="sidefoot">
+     PORTF&Oacute;LIO DE DADOS
+     <br/>
+     Jo&atilde;o Carlos &middot; 2026
+    </div>
+   </aside>
+   <main class="main">
+    <div class="top">
+     <div class="eyebrow">
+      DATA ANALYTICS / PORTF&Oacute;LIO
+     </div>
+     <div class="tag">
+      ● Dispon&iacute;vel para oportunidades j&uacute;nior
+     </div>
+    </div>
+    <section class="section show" id="inicio">
+     <div class="hero hero-profile">
+      <div class="hero-copy">
+       <div class="eyebrow">
+        OL&Aacute;, EU SOU JO&Atilde;O CARLOS
+       </div>
+       <h1>
+        Transformando dados em
+        <span class="accent">
+         insights claros.
+        </span>
+       </h1>
+       <p>
+        Estudante de Ci&ecirc;ncia da Computa&ccedil;&atilde;o em desenvolvimento na &aacute;rea de An&aacute;lise de Dados. Exploro dados, construo indicadores e transformo perguntas em an&aacute;lises que apoiam decis&otilde;es.
+       </p>
+       <div class="actions">
+        <a class="btn" data-go="dashboard" href="#dashboard">
+         Explorar dashboard &rarr;
+        </a>
+        <a class="btn ghost" data-go="projetos" href="#projetos">
+         Ver projetos
+        </a>
+       </div>
+      </div>
+      <img alt="Fotografia profissional de Jo&atilde;o Carlos" class="portrait" src="assets/foto-joao.jpeg"/>
+     </div>
+     <div class="sectionhead">
+      <h2>
+       Projeto em destaque
+      </h2>
+      <p>
+       Um estudo explorat&oacute;rio com dados educacionais reais da planilha de estudo.
+      </p>
+     </div>
+     <div class="cards">
+      <div class="card">
+       <small>
+        Estudantes
+       </small>
+       <div class="metric">
+        395
+       </div>
+       <div class="sub">
+        Registros analisados
+       </div>
+      </div>
+      <div class="card">
+       <small>
+        Escolas
+       </small>
+       <div class="metric">
+        02
+       </div>
+       <div class="sub">
+        GP e MS
+       </div>
+      </div>
+      <div class="card">
+       <small>
+        Dimens&otilde;es
+       </small>
+       <div class="metric">
+        04
+       </div>
+       <div class="sub">
+        Escola, sexo, internet e trajeto
+       </div>
+      </div>
+      <div class="card">
+       <small>
+        Ferramenta
+       </small>
+       <div class="metric">
+        Excel
+       </div>
+       <div class="sub">
+        An&aacute;lise explorat&oacute;ria
+       </div>
+      </div>
+     </div>
+     <div class="sectionhead">
+      <h2>
+       O que voc&ecirc; vai encontrar
+      </h2>
+     </div>
+     <div class="grid">
+      <div class="card">
+       <h3 class="charttitle">
+        An&aacute;lise de desempenho escolar
+       </h3>
+       <p class="muted">
+        Explore diferen&ccedil;as entre grupos e investigue como acesso &agrave; internet e deslocamento se relacionam com as notas.
+       </p>
+       <a class="btn" data-go="dashboard" href="#dashboard">
+        Abrir estudo &rarr;
+       </a>
+      </div>
+      <div class="card">
+       <h3 class="charttitle">
+        Meu desenvolvimento
+       </h3>
+       <p class="muted">
+        Excel, SQL e Power BI, com foco em an&aacute;lise explorat&oacute;ria, indicadores e visualiza&ccedil;&atilde;o de dados.
+       </p>
+       <a class="btn ghost" data-go="sobre" href="#sobre">
+        Conhecer habilidades &rarr;
+       </a>
+      </div>
+     </div>
+    </section>
+    <section class="section" id="dashboard">
+     <div class="sectionhead" style="margin-top:0">
+      <div class="eyebrow">
+       PROJETO 01 &middot; EXCEL
+      </div>
+      <h2>
+       Dashboard de desempenho escolar
+      </h2>
+      <p>
+       Filtre os 395 estudantes para comparar distribui&ccedil;&atilde;o, m&eacute;dias e caracter&iacute;sticas dos grupos.
+      </p>
+     </div>
+     <div class="filters">
+      <label>
+       Escola
+       <select id="school">
+        <option value="all">
+         Todas as escolas
+        </option>
+        <option value="GP">
+         GP
+        </option>
+        <option value="MS">
+         MS
+        </option>
+       </select>
+      </label>
+      <label>
+       Sexo
+       <select id="sex">
+        <option value="all">
+         Todos
+        </option>
+        <option value="F">
+         Feminino
+        </option>
+        <option value="M">
+         Masculino
+        </option>
+       </select>
+      </label>
+      <label>
+       Internet
+       <select id="internet">
+        <option value="all">
+         Todos
+        </option>
+        <option value="yes">
+         Com internet
+        </option>
+        <option value="no">
+         Sem internet
+        </option>
+       </select>
+      </label>
+      <label>
+       Deslocamento
+       <select id="travel">
+        <option value="all">
+         Todas as faixas
+        </option>
+        <option value="1">
+         At&eacute; 15 min
+        </option>
+        <option value="2">
+         15 a 30 min
+        </option>
+        <option value="3">
+         30 a 60 min
+        </option>
+        <option value="4">
+         Mais de 60 min
+        </option>
+       </select>
+      </label>
+     </div>
+     <div class="cards" id="kpis">
+     </div>
+     <div class="sectionhead">
+      <h2>
+       Compara&ccedil;&otilde;es por grupo
+      </h2>
+      <p>
+       As visualiza&ccedil;&otilde;es respondem aos filtros selecionados.
+      </p>
+     </div>
+     <div class="grid" id="results">
+      <div class="card">
+       <h3 class="charttitle">
+        Estudantes por escola
+       </h3>
+       <div class="chartsub">
+        Distribui&ccedil;&atilde;o absoluta
+       </div>
+       <div id="schoolsChart">
+       </div>
+      </div>
+      <div class="card">
+       <h3 class="charttitle">
+        Distribui&ccedil;&atilde;o por sexo
+       </h3>
+       <div class="chartsub">
+        Participa&ccedil;&atilde;o no grupo selecionado
+       </div>
+       <div class="donut" id="sexDonut">
+       </div>
+       <div class="split">
+        <span>
+         <i class="dot">
+         </i>
+         Feminino
+         <b id="femaleCount">
+         </b>
+        </span>
+        <span>
+         <i class="dot alt">
+         </i>
+         Masculino
+         <b id="maleCount">
+         </b>
+        </span>
+       </div>
+      </div>
+      <div class="card">
+       <h3 class="charttitle">
+        Nota m&eacute;dia por acesso &agrave; internet
+       </h3>
+       <div class="chartsub">
+        M&eacute;dia de G1, G2 e G3 &middot; escala de 0 a 20
+       </div>
+       <div id="internetChart">
+       </div>
+      </div>
+      <div class="card">
+       <h3 class="charttitle">
+        Nota m&eacute;dia por tempo de deslocamento
+       </h3>
+       <div class="chartsub">
+        Faixas codificadas na base original
+       </div>
+       <div id="travelChart">
+       </div>
+      </div>
+     </div>
+     <div class="sectionhead">
+      <h2>
+       Interpreta&ccedil;&atilde;o
+      </h2>
+     </div>
+     <div class="insight" id="insight">
+     </div>
+     <p class="footnote">
+      Fonte: planilha de estudo enviada pelo autor (aba student-mat). Nota m&eacute;dia calculada como (G1 + G2 + G3) / 3. Dados observacionais: diferen&ccedil;as entre grupos n&atilde;o demonstram causalidade. Identificadores individuais foram exclu&iacute;dos deste site.
+     </p>
+    </section>
+    <section class="section" id="projetos">
+     <div class="sectionhead" style="margin-top:0">
+      <h2>
+       Meus projetos
+      </h2>
+      <p>
+       Estudos pr&aacute;ticos e pr&oacute;ximos desafios de aprendizagem.
+      </p>
+     </div>
+     <div class="projects">
+      <div class="card project">
+       <span class="pill">
+        CONCLU&Iacute;DO &middot; EXCEL
+       </span>
+       <h3>
+        Desempenho Escolar
+       </h3>
+       <p>
+        Estudo explorat&oacute;rio de 395 estudantes, comparando notas, acesso &agrave; internet e deslocamento.
+       </p>
+       <a class="btn" data-go="dashboard" href="#dashboard">
+        Explorar projeto &rarr;
+       </a>
+      </div>
+      <div class="card project">
+       <span class="pill dim">
+        PLANEJADO
+       </span>
+       <h3>
+        An&aacute;lise de Vendas
+       </h3>
+       <p>
+        Indicadores comerciais, segmenta&ccedil;&atilde;o e consultas SQL.
+       </p>
+      </div>
+      <div class="card project">
+       <span class="pill dim">
+        PLANEJADO
+       </span>
+       <h3>
+        Dashboard Power BI
+       </h3>
+       <p>
+        Visualiza&ccedil;&otilde;es interativas, modelagem e m&eacute;tricas DAX.
+       </p>
+      </div>
+      <div class="card project">
+       <span class="pill dim">
+        PLANEJADO
+       </span>
+       <h3>
+        Marketing Analytics
+       </h3>
+       <p>
+        An&aacute;lise de alcance, engajamento e desempenho de conte&uacute;do digital.
+       </p>
+      </div>
+     </div>
+    </section>
+    <section class="section" id="sobre">
+     <div class="sectionhead" style="margin-top:0">
+      <h2>
+       Sobre mim
+      </h2>
+      <p>
+       Minha trajet&oacute;ria, forma&ccedil;&atilde;o e objetivos na &aacute;rea de dados.
+      </p>
+     </div>
+     <div class="hero about-hero">
+      <div class="about-copy">
+       <div class="eyebrow">
+        PERFIL PROFISSIONAL
+       </div>
+       <h1>
+        Jo&atilde;o Carlos
+        <span class="accent">
+         Francisco Gl&oacute;ria.
+        </span>
+       </h1>
+       <p>
+        Ol&aacute;! Sou estudante de Ci&ecirc;ncia da Computa&ccedil;&atilde;o e estou desenvolvendo minha carreira em An&aacute;lise de Dados. Tenho experi&ecirc;ncia profissional em suporte t&eacute;cnico de inform&aacute;tica, al&eacute;m de conhecimentos em design e comunica&ccedil;&atilde;o visual.
+       </p>
+       <p>
+        Atualmente, estudo Excel, SQL, Power BI e Python para transformar dados em informa&ccedil;&otilde;es claras e relevantes para a tomada de decis&otilde;es. Acredito que uma boa an&aacute;lise tamb&eacute;m depende de identificar padr&otilde;es, compreender problemas e comunicar descobertas de forma simples e visual.
+       </p>
+       <p>
+        Estou construindo meu portf&oacute;lio com projetos pr&aacute;ticos, aplicando o que aprendo durante minha forma&ccedil;&atilde;o.
+       </p>
+       <div class="goal">
+        <strong>
+         Objetivo profissional
+        </strong>
+        <span>
+         Conquistar uma oportunidade como Analista de Dados J&uacute;nior, contribuindo com an&aacute;lises, indicadores e visualiza&ccedil;&otilde;es que apoiem decis&otilde;es estrat&eacute;gicas.
+        </span>
+       </div>
+      </div>
+      <img alt="Fotografia profissional de Jo&atilde;o Carlos" class="portrait" src="assets/imagem-2.jpeg"/>
+     </div>
+     <div class="sectionhead">
+      <h2>
+       Minha trajet&oacute;ria
+      </h2>
+      <p>
+       Experi&ecirc;ncias que conecto &agrave; an&aacute;lise de dados.
+      </p>
+     </div>
+     <div class="grid">
+      <div class="card">
+       <h3 class="charttitle">
+        Tecnologia e suporte
+       </h3>
+       <p class="muted">
+        Experi&ecirc;ncia com resolu&ccedil;&atilde;o de problemas, suporte t&eacute;cnico, sistemas e organiza&ccedil;&atilde;o de informa&ccedil;&otilde;es.
+       </p>
+      </div>
+      <div class="card">
+       <h3 class="charttitle">
+        Design e comunica&ccedil;&atilde;o
+       </h3>
+       <p class="muted">
+        Viv&ecirc;ncia na cria&ccedil;&atilde;o de materiais visuais e comunica&ccedil;&atilde;o, importante para apresentar dados com clareza.
+       </p>
+      </div>
+     </div>
+     <div class="sectionhead">
+      <h2>
+       Ferramentas e conhecimentos
+      </h2>
+     </div>
+     <div class="skills">
+      <span class="skill">
+       Excel &middot; em evolu&ccedil;&atilde;o
+      </span>
+      <span class="skill">
+       SQL &middot; iniciante
+      </span>
+      <span class="skill">
+       Power BI &middot; iniciante
+      </span>
+      <span class="skill">
+       Python &middot; em estudo
+      </span>
+      <span class="skill">
+       Visualiza&ccedil;&atilde;o de dados
+      </span>
+      <span class="skill">
+       Design e comunica&ccedil;&atilde;o
+      </span>
+     </div>
+     <p class="footnote">
+      Portf&oacute;lio de aprendizagem: novos projetos ser&atilde;o publicados conforme forem conclu&iacute;dos.
+     </p>
+    </section>
+   </main>
+  </div>
+ </body>
+</html>
+
