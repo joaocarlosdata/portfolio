@@ -39,13 +39,13 @@ portfolio_joao_carlos_vscode/
 
 ## Publicar no GitHub Pages
 
-Repositório: https://github.com/joaogarcezofc/portfolio
+Repositório: https://github.com/joaocarlosdata/portfolio
 
 1. Envie **o conteúdo desta pasta** para a raiz do repositório (o arquivo `index.html` precisa ficar na raiz).
 2. Entre em **Settings > Pages**.
 3. Selecione **Deploy from a branch**, branch `main`, pasta `/(root)` e salve.
 4. Após a publicação, o endereço esperado será:
-   https://joaogarcezofc.github.io/portfolio/
+https://joaocarlosdata.github.io/portfolio/
 
 ## Sobre os dados
 
